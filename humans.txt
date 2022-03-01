@@ -1,0 +1,42 @@
+/* TEAM */
+
+                            
+Web Designer: Justin Shaw
+
+Web Developer: Justin Shaw
+                            
+Site: 
+
+Email: shaw.justin@shaw.ca
+                            
+Location: South Alberta, Canada
+
+                         
+                 
+                        [...]
+						
+							
+/* THANKS */
+
+							
+Name: Netlify For Publishing
+
+						
+                 
+                        [...]
+                        
+
+                            
+/* SITE */
+
+                            
+Last update: 03/01/2022
+
+                            
+Standards: HTML5, CSS3, JavaScript
+
+                            
+Components:
+
+                            
+Software: Visual Studio Code
