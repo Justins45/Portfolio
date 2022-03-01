@@ -19,7 +19,8 @@ Location: South Alberta, Canada
 /* THANKS */
 
 							
-Name: Netlify For Publishing
+Name: Netlify For Publishing,
+      Github For Having Files all in one safe place
 
 						
                  
