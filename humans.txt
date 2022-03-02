@@ -34,7 +34,7 @@ Name: Netlify For Publishing,
 Last update: 03/01/2022
 
                             
-Standards: HTML5, CSS3, JavaScript
+Standards: HTML5, CSS3, JavaScript, jQuery
 
                             
 Components:
