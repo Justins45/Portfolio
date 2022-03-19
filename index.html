@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <!-- Author & Other web Crawler Info -->
     <meta name="author" content="Justin Shaw | shaw.justin@shaw.ca">
@@ -24,11 +23,32 @@
     <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap"
         rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+
+    <script type="text/javascript">
+        $(document).ready(function(){ 
+            console.log("ready");
+            
+            $('#nav-icon').click(function(){
+		        $(this).toggleClass('open');
+                $('nav').toggleClass('active');
+	        });
+            
+        });
+    </script> 
 </head>
 
 <body>
     <div class="content main">
         <header>
+            <div class="hamburger">
+                <div id="nav-icon">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+
             <nav>
                 <ul class="flex-coll">
                     <li><a href="#">Projects</a></li>
