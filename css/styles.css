@@ -191,15 +191,10 @@ nav {
 }
 
 
+img {
+  width: 20rem;
+}
+
+
 /* Footer Styles */
-
-.nav-li {
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-}
-.nav-li svg {
-  margin: .5rem .5rem .75rem;
-}
-
 
