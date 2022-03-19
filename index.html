@@ -12,7 +12,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
-    <!-- Javascript -->
+    <!-- jQuery -->
     <script src="js/jquery.js" type="text/javascript"></script> 
     
 
@@ -30,20 +30,12 @@
     <script type="text/javascript">
         $(document).ready(function(){ 
             console.log("ready");
-            // Try when uploading to web server, need to find free local webserver for testing..hmmmm
-            // $(function() {
-                
-            //     $('#header').load("templates/header.html")
-            //     $("#footer").load("templates/footer.html");
-            // });
-
+            
             $('#nav-icon').click(function(){
 		        $(this).toggleClass('open');
                 $('nav').toggleClass('active');
 	        });
             
-
-            // GET WORKING 
         });
     </script> 
 
@@ -52,20 +44,20 @@
     <header id="header">
         <div class="header-content flex-row">
             <div class="logo mobile-header">
-                <a href="index.html"><img src="img/logo/my-logo.png" alt="Justin Shaw written in cursive font as an image"></a>
-                <div class="hamburger">
+                <a href="index.html"><img src="img/logo/my-logo(white).png" alt="Justin Shaw written in cursive font as an image"></a>
+                <!-- <div class="hamburger">
                     <div id="nav-icon">
                         <span></span>
                         <span></span>
                         <span></span>
                         <span></span>
                     </div>
-                </div>
+                </div> -->
                 
             </div>
             <div class="nav">
                 <nav>
-                    <ul class="main-menu flex-col">
+                    <ul class="main-menu flex-row">
                         <li><a href="index.html">Home</a></li>
                         <li><a href="aboutMe.html">About Justin</a></li>
                     </ul>
@@ -77,8 +69,12 @@
     
     <main>
         <div class="content main-content">
-            <h1>What is this?</h1>
-            <p></p>
+            <div>
+                <h1>What is this?</h1>
+                <p>This website was made to show off the abilities of Justin Shaw to all and any potential clients or hiring managers. Items posted will be screenshots and interactive displays of what Justin can produce. </p>
+                <p>This website is all created and managed by Justin Shaw. This website is the most prominent example of what justin can produce and is ever-evolving. The date this website is last updated will be at the bottom in the footer, so coming back to this website will show updates to any pages as new ideas come up, and new skills are learned.</p>
+            </div>
+            
 
             <div class="aboutMe-blip">
                 
@@ -97,10 +93,6 @@
     <footer id="footer">
         <div class="footer-content">
 
-
-            <div class="last-update">
-                <p>Last updated on: March 2nd, 2022</p>
-            </div>
         </div>
     </footer>
 

@@ -15,15 +15,16 @@ body {
 */
 
 :root {
-  --yellow: #ffd23f;
-  --grey: #757780;
-  --pink: #ffa0ac;
-  --offWhite: #f3fcf0;
-  --darkGreen: #1f271b;
+  --yellow: #f9d04c;
+  --offBlack: #212429;
+  --brown: #ae847e;
+  --offWhite: #fff1f1;
+  --darkPurple: #160c28;
+  --ebony: #515a47;
 }
 
 h1, h2, h3, h4, p, li {
-  color: var(--darkGreen);
+  color: var(--offBlack);
 }
 
 h1, h2, h3, h4 {
@@ -32,27 +33,33 @@ h1, h2, h3, h4 {
 
 h1 {
   font-size: 2.441rem;
+  margin-bottom: 2rem;
 }
 h2 {
   font-size: 1.953rem;
+  margin-bottom: 1rem;
 }
 h3 {
   font-size: 1.563rem;
+  margin-bottom: 1rem;
 }
-
 
 p,li {
   font-family: 'Lato', sans-serif;
 }
 
+p {
+  margin-bottom: 1rem;
+}
+
 
 a {
   text-decoration: none;
-  color: var(--darkGreen);
+  color: var(--darkPurple);
 }
 
 a:hover {
-  color: var(--grey);
+  color: var(--offBlack);
   text-decoration: underline;
 }
 
@@ -71,22 +78,26 @@ a:hover {
 /* Header Styles */
 
 header {
-  background-color: var(--yellow);
+  background-color: var(--offBlack);
   padding: 1rem;
-  position: sticky;
-  z-index: 5;
-  border-bottom: 2px solid var(--darkGreen);
+  height: 8rem;
+  width: 100%;
 }
 
 .logo img {
-  max-width: 7rem;
-  max-height: 5rem;
+  max-width: 8rem;
+  max-height: 6rem;
+}
+
+.logo {
+  padding: .5rem;
+  margin-top: 1rem;
 }
 
 .hamburger {
   position: absolute;
-  top: -19px;
-  right: 0;
+  top: 6px;
+  right: 16px;
   margin-right: 1.5rem;
 }
 
@@ -97,27 +108,30 @@ header {
 }
 
 .nav {
-  width: 12rem;
+  width: 20rem;
   padding-top: 1.5rem;
+  margin-left: 5rem;
 }
 
-nav ul {
-  justify-content: space-around;
-}
 
 .nav li {
   font-weight: bold;
   line-height: 2;
   text-align: center;
   padding: .5rem 0;
-  border-bottom: 2px solid var(--darkGreen);
 }
 
-.nav li:first-child {
-  border-top: 2px solid var(--darkGreen);
+.nav li a {
+  color: var(--offWhite);
 }
 
-nav {
+.main-menu {
+  width: 100%;
+  justify-content: space-around;
+}
+
+
+/* nav {
   z-index: -2;
   position: absolute;
   background-color: var(--yellow);
@@ -125,21 +139,16 @@ nav {
   width: 100vw;
   max-height: 0;
   overflow: hidden;
-  transition: all 0.2s ease-in-out;
+  transition: all 0.4s ease-in-out;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
 
-}
+} */
 
-.main-menu {
-  margin-top: 4rem;
-  width: 100vw;
-}
 
-.active {
-  max-height: 100vh;
-}
+
+
 
 /* hamburger menu animation */
 
@@ -164,7 +173,7 @@ nav {
   position: absolute;
   height: 9px;
   width: 100%;
-  background: var(--darkGreen);
+  background: var(--offWhite);
   border-radius: 9px;
   opacity: 1;
   left: 0;
@@ -221,13 +230,16 @@ nav {
 
 /* Body Styles */
 
+.content {
+  margin: 3rem 1rem 3rem ;
+}
 
-.learn-more {
-  color: var(--darkGreen);
+.learn-more a {
+  color: var(--darkPurple);
 }
 
 .learn-more:hover {
-  color: var(--pink);
+  color: var(--brown);
 
 }
 
