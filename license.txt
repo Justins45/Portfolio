@@ -2,16 +2,18 @@ Legal Information
 
 *** Images ***
 
-Justin Shaw Logo Black | Made by Justin Shaw inside photoshop for pesonal use.
 
-Justin Shaw Logo White | Made by Justin Shaw inside photoshop for pesonal use.
 
 
 
 
 *** Fonts ***
 
+Noto Sans - https://fonts.google.com/noto/specimen/Noto+Sans?query=noto+
+        Free use under Open Font License
 
+Caveat - https://fonts.google.com/specimen/Caveat?query=cav
+        Free use under Open Font License
 
-
-
+source Sans Pro - https://fonts.google.com/specimen/Source+Sans+Pro?query=source
+        Free use under Open Font License

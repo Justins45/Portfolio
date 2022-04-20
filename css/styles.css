@@ -38,12 +38,14 @@ h2 {
 p {
   margin-bottom: 1rem;
   font-family: 'SourceSansPro', sans-serif;
+  line-height: 1.5rem;
 }
 
 a {
   text-decoration: none;
   color: var(--offWhite);
 }
+
 
 .flex-row {
   display: flex;
@@ -70,6 +72,22 @@ a {
   padding-top: 1.5rem;
   margin-left: 1rem;
 }
+
+.header {
+  margin: 1rem 2rem 15rem 1rem;
+}
+
+.header h1 {
+  color: var(--offWhite);
+}
+
+.header p {
+  margin-top: -1.5rem;
+  color: var(--yellow);
+  font-family: 'Caveat', cursive;
+  font-size: 1.25rem;
+}
+
 
 /* Hamburger Animation */
 
@@ -102,6 +120,12 @@ nav {
   text-align: center;
   margin-bottom: 5rem;
   font-size: 1.563rem;
+  color: var(--offWhite);
+  font-family: 'Noto Sans Bold', sans-serif;
+}
+
+.nav-list li a:hover {
+  color: var(--brown);
 }
 
 .active {
@@ -197,22 +221,17 @@ nav {
 
 /* Body Styles */
 
-.header {
-  margin: 1rem 2rem 15rem 1rem;
-}
 
-.header h1 {
-  color: var(--offWhite);
-}
-
-.header p {
-  margin-top: -1.5rem;
-  color: var(--yellow);
-  font-family: 'Caveat', cursive;
-}
 
 .content {
   margin: 1rem;
+}
+
+.check-me-out a {
+  color: var(--blue);
+}
+.check-me-out a:hover {
+  color: var(--brown);
 }
 
 
@@ -222,8 +241,31 @@ img {
 
 
 /* Footer Styles */
+footer {
+  margin-top: 4rem;
+  padding: 2rem;
+  background-color: var(--Black);
+}
 
+.socials {
+  margin-top: 3rem;
+}
 
+.socials img {
+  width: 2.5rem;
+}
+
+.socials img:nth-child(1) {
+  margin-left: .5rem;
+}
+
+.socials ul {
+  justify-content: space-evenly;
+}
+
+.socials p {
+  text-align: center;
+}
 
 /* Media Querys */
 
