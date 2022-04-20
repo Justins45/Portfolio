@@ -1,0 +1,54 @@
+/* NOTO SANS */
+@font-face {
+    font-family: 'Noto Sans';
+    src: url(fonts/NotoSans-Regular.ttf) format('truetype');
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'Noto Sans Bold';
+    src: url(fonts/NotoSans-Bold.ttf) format('truetype');
+    font-weight: bold;
+}
+@font-face {
+    font-family: 'Noto Sans Italic';
+    src: url(fonts/NotoSans-Italic.ttf) format('truetype');
+    font-style: italic;
+    font-weight: normal;
+}
+
+
+/* CAVEAT */
+@font-face {
+    font-family: 'Caveat';
+    src: url(fonts/Caveat-Medium.ttf) format('truetype');
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'Caneat Bold';
+    src: url(fonts/Caveat-SemiBold.ttf) format('truetype');
+    font-weight: bold;
+}
+
+
+/* SOURCE SANS PRO */
+@font-face {
+    font-family: 'SourceSansPro';
+    src: url(fonts/SourceSansPro-Regular.ttf) format('truetype');
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'SourceSansPro Light';
+    src: url(fonts/SourceSansPro-Light.ttf) format('truetype');
+    font-weight: lighter;
+}
+@font-face {
+    font-family: 'SourceSansPro Bold';
+    src: url(fonts/SourceSansPro-SemiBold.ttf) format('truetype');
+    font-weight: bold;
+}
+@font-face {
+    font-family: 'SourceSansPro Italic';
+    src: url(fonts/SourceSansPro-Italic.ttf) format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}

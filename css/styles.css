@@ -1,11 +1,13 @@
-/* Gobal Styles */
+@import url(fonts.css);
 
+/* Gobal Styles */
 :root {
   --yellow: #ffc95d;
   --Black: #1a2028;
   --brown: #ae847e;
   --offWhite: #fff1f1;
   --offBlack: #212429 ;
+  --blue: #009fb7;
 }
 
 
@@ -15,17 +17,19 @@ body {
 }
 
 h1, h2 {
- 
   color: var(--yellow);
+  font-family: 'Noto Sans Bold', sans-serif;
 }
 
 h1 {
   font-size: 2.441rem;
   margin-bottom: 2rem;
+  
 }
 h2 {
   font-size: 1.953rem;
   margin-bottom: 1rem;
+ 
 }
 
 
@@ -33,6 +37,7 @@ h2 {
 
 p {
   margin-bottom: 1rem;
+  font-family: 'SourceSansPro', sans-serif;
 }
 
 a {
@@ -85,6 +90,10 @@ nav {
 
 }
 
+.hamburger {
+  height: 60px;
+}
+
 .nav-list {
   width: 100%;
   padding-top: 13rem;
@@ -99,14 +108,14 @@ nav {
   height: 100vh;
 }
 
-/* hamburger menu animation */
-
 #nav-icon {
   z-index: 5;
   width: 60px;
   height: 45px;
-  position: relative;
-  margin: 1rem 1rem 1rem 21rem;
+  position: absolute;
+  right: 0;
+  top: 0;
+  margin: 1rem;
   -webkit-transform: rotate(0deg);
   -moz-transform: rotate(0deg);
   -o-transform: rotate(0deg);
@@ -137,6 +146,13 @@ nav {
   -o-transition: .25s ease-in-out;
   transition: .25s ease-in-out;
 }
+
+
+
+
+
+
+/* hamburger menu animation */
 
 #nav-icon span:nth-child(1) {
   top: 0px;
@@ -181,6 +197,10 @@ nav {
 
 /* Body Styles */
 
+.header {
+  margin: 1rem 2rem 15rem 1rem;
+}
+
 .header h1 {
   color: var(--offWhite);
 }
@@ -188,6 +208,11 @@ nav {
 .header p {
   margin-top: -1.5rem;
   color: var(--yellow);
+  font-family: 'Caveat', cursive;
+}
+
+.content {
+  margin: 1rem;
 }
 
 
@@ -198,3 +223,35 @@ img {
 
 /* Footer Styles */
 
+
+
+/* Media Querys */
+
+@media only screen and (min-width: 750px) {
+  
+  /* Navigation */
+  nav {
+    height: 4rem;
+    position: relative;
+    overflow: visible;
+    margin-bottom: 1rem;
+    background-color: var(--offBlack);
+  }
+
+  .hamburger {
+    height: 0;
+  }
+
+  .nav-list {
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 0;
+    margin-top: 1.25rem;
+  }
+
+  #nav-icon, #nav-icon span {
+    display: none;
+  }
+
+  
+}
