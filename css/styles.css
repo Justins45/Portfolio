@@ -3,16 +3,16 @@
 /* Gobal Styles */
 :root {
   --yellow: #ffc95d;
-  --Black: #1a2028;
+  --Black: #161616;
   --brown: #ae847e;
   --offWhite: #fff1f1;
-  --offBlack: #212429 ;
+  --offBlack: #191919 ;
   --blue: #009fb7;
 }
 
 
 body {
-  background-color: var(--offBlack);
+  background-color: var(--Black);
   color: var(--offWhite);
 }
 
@@ -22,13 +22,13 @@ h1, h2 {
 }
 
 h1 {
-  font-size: 2.441rem;
+  font-size: 3.052rem;
   margin-bottom: 2rem;
   
 }
 h2 {
-  font-size: 1.953rem;
-  margin-bottom: 1rem;
+  font-size: 2.441rem;
+  margin-bottom: 2rem;
  
 }
 
@@ -39,6 +39,7 @@ p {
   margin-bottom: 1rem;
   font-family: 'SourceSansPro', sans-serif;
   line-height: 1.5rem;
+  font-size: 1.25rem;
 }
 
 a {
@@ -86,6 +87,7 @@ a {
   color: var(--yellow);
   font-family: 'Caveat', cursive;
   font-size: 1.25rem;
+  margin-left: 1rem;
 }
 
 
@@ -244,11 +246,14 @@ img {
 footer {
   margin-top: 4rem;
   padding: 2rem;
-  background-color: var(--Black);
+}
+
+footer h2 {
+  margin-bottom: 2.5rem;
 }
 
 .socials {
-  margin-top: 3rem;
+  margin-top: 4rem;
 }
 
 .socials img {
@@ -267,9 +272,71 @@ footer {
   text-align: center;
 }
 
+.breaker {
+  background-color: var(--offWhite);
+  height: 2px;
+  border-radius: 20px;
+  margin: 0 -1.30rem;
+  margin-bottom: 2rem
+}
+
 /* Media Querys */
 
 @media only screen and (min-width: 750px) {
+  
+  /* Gobal Styles */
+  .content {
+    width: 46rem;
+  }
+
+  /* Navigation */
+ .nav-list li {
+   margin-bottom: 8rem;
+ }
+
+  /* Header */
+
+  /* Main */
+  
+
+  /* Footer */
+  footer {
+    position: absolute;
+    bottom: 0;
+    width: 46rem;
+  }
+
+  .breaker {
+    width: 46rem;
+  }
+  
+}
+
+@media only screen and (min-width: 900px) {
+
+  /* Gobal Styles */
+  .content {
+    margin: 1rem auto;
+    width: 56rem;
+  }
+  
+  h1 {
+    font-size: 3.815rem;
+  }
+  
+  h2 {
+    font-size: 3.052rem
+  }
+  
+  nav a {
+    font-size: 2.15rem;
+  }
+  
+  p {
+    font-size: 1.5rem
+  }
+
+  
   
   /* Navigation */
   nav {
@@ -277,7 +344,8 @@ footer {
     position: relative;
     overflow: visible;
     margin-bottom: 1rem;
-    background-color: var(--offBlack);
+    background-color: var(--Black);
+    width: 56rem;
   }
 
   .hamburger {
@@ -291,9 +359,136 @@ footer {
     margin-top: 1.25rem;
   }
 
+  .nav-list li {
+    font-family: 'Caneat Bold', cursive;
+  }
+
+  a #li:hover {
+    color: var(--brown);
+  }
+
   #nav-icon, #nav-icon span {
     display: none;
   }
 
+  /* Header */
+  .header {
+    margin-top: 3.5rem;
+    margin-left: 4rem;
+    margin-bottom: 10rem;
+  }
   
+  .header  p {
+    font-size: 1.75rem;
+    margin-top: -1rem;
+  }
+
+  /* Main */
+  
+
+  .main {
+    width: 25rem;
+    float: right;
+    margin-right: 6rem;
+  }
+
+  /* Footer */
+  footer {
+    width: 56rem;
+  }
+  .breaker {
+    width: 56rem;
+  }
+
+}
+
+@media only screen and (min-width: 1440px) {
+  
+  /* Gobal Styles */
+  .content {
+    width: 75rem;
+    margin: 0 auto;
+  }
+
+  
+
+  /* Navigation */
+  
+  .nav-list {
+    width: 75rem;
+  }
+
+  nav a {
+    font-size: 2.5rem;
+  }
+
+  /* Header */
+
+
+  /* Main */
+  
+
+  /* Footer */
+  footer {
+    width: 75rem;
+  }
+
+  .breaker {
+    width: 100%;
+  }
+
+  .check-me-out {
+    text-align: center;
+    margin: 0;
+  }
+
+  .socials {
+    width: 50rem;
+    margin: 0 auto;
+    margin-top: 4rem;
+  }
+}
+
+@media only screen and (min-width: 1900px) {
+
+  /* Gobal Styles */
+  .content {
+    width: 90rem;
+    margin: 0 auto;
+  }
+  
+  /* Navigation */
+  nav {
+    margin-left: 5rem;
+  }
+
+  .nav-list {
+    width: 80rem;
+  }
+
+  /* Header */
+
+
+  /* Main */
+  
+
+  /* Footer */
+
+  footer {
+    width: 90rem;
+  }
+}
+
+@media only screen and (min-width: 2200px) {
+  
+  /* Navigation */
+  
+
+  /* Header */
+
+
+  /* Main */
+  
+
+  /* Footer */
 }
