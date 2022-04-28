@@ -38,7 +38,7 @@ h2 {
 p {
   margin-bottom: 1rem;
   font-family: 'SourceSansPro', sans-serif;
-  line-height: 1.5rem;
+  line-height: 1.75rem;
   font-size: 1.25rem;
 }
 
@@ -58,6 +58,16 @@ a {
   flex-direction: column;
 }
 
+::-moz-selection { /* Code for Firefox */
+  color: blue;
+  background: white;
+}
+
+::selection {
+  color: blue;
+  background: white;
+}
+
 
 /* Header Styles */
 
@@ -74,7 +84,7 @@ a {
   margin-left: 1rem;
 }
 
-.header {
+.home {
   margin: 1rem 2rem 15rem 1rem;
 }
 
@@ -87,6 +97,11 @@ a {
   color: var(--yellow);
   font-family: 'Caveat', cursive;
   font-size: 1.25rem;
+  margin-left: 1rem;
+}
+
+.about {
+  margin-top: 1rem;
   margin-left: 1rem;
 }
 
@@ -236,10 +251,51 @@ nav {
   color: var(--brown);
 }
 
-
-img {
-  width: 20rem;
+.main {
+  margin: 1rem;
 }
+
+.page-about {
+  margin-top: 3rem;
+}
+
+.intro h2 {
+  color: var(--offWhite);
+}
+
+.about-socials {
+  margin-bottom: 2rem;
+}
+
+.direct {
+  margin-left: 1rem;
+  margin-top: 2rem;
+}
+
+.direct li {
+  font-family: 'Noto Sans', sans-serif;
+  margin-bottom: 1rem;
+  font-size: 1.25rem;
+  color: var(--yellow)
+}
+
+
+.git {
+  margin-top: 4rem;
+}
+
+.git img {
+  width: 2.5rem;
+  margin-left: 2rem;
+}
+
+#contact {
+  margin-top: 5rem;
+}
+
+
+
+
 
 
 /* Footer Styles */
@@ -253,24 +309,18 @@ footer h2 {
 }
 
 .socials {
+  
   margin-top: 4rem;
 }
 
 .socials img {
-  width: 2.5rem;
-}
-
-.socials img:nth-child(1) {
-  margin-left: .5rem;
+  width: 3rem;
 }
 
 .socials ul {
-  justify-content: space-evenly;
+  justify-content: space-around;
 }
 
-.socials p {
-  text-align: center;
-}
 
 .breaker {
   background-color: var(--offWhite);
@@ -298,12 +348,21 @@ footer h2 {
 
   /* Main */
   
+  .page-about {
+    padding-bottom: 3rem;
+  }
+
+  .page-index {
+    width: 25rem;
+  }
 
   /* Footer */
   footer {
-    position: absolute;
-    bottom: 0;
     width: 46rem;
+  }
+
+  .socials {
+    width: 50%;
   }
 
   .breaker {
@@ -386,14 +445,17 @@ footer h2 {
   /* Main */
   
 
-  .main {
+  .page-index {
     width: 25rem;
-    float: right;
     margin-right: 6rem;
+    margin-top: 13rem;
   }
+  
+  
 
   /* Footer */
   footer {
+    margin-top: 10rem;
     width: 56rem;
   }
   .breaker {
@@ -477,18 +539,4 @@ footer h2 {
   footer {
     width: 90rem;
   }
-}
-
-@media only screen and (min-width: 2200px) {
-  
-  /* Navigation */
-  
-
-  /* Header */
-
-
-  /* Main */
-  
-
-  /* Footer */
 }
