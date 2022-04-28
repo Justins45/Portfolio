@@ -19,7 +19,7 @@ Location: Calgary Alberta, Canada
 /* THANKS */
 
 							
-Name: Netlify For Publishing,
+Name: Netlify For Publishing and hosting Project sites,
       Github For Having Files all in one safe place
 
 						
@@ -31,7 +31,7 @@ Name: Netlify For Publishing,
 /* SITE */
 
                             
-Last update: 04/27/2022
+Last update: 04/28/2022
 
                             
 Standards: HTML5, CSS3, JavaScript, jQuery

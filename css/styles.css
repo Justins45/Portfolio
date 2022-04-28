@@ -32,9 +32,6 @@ h2 {
  
 }
 
-
-
-
 p {
   margin-bottom: 1rem;
   font-family: 'SourceSansPro', sans-serif;
@@ -42,10 +39,21 @@ p {
   font-size: 1.25rem;
 }
 
-a {
+nav a {
   text-decoration: none;
   color: var(--offWhite);
+  font-family: 'Noto Sans Bold', sans-serif;
 }
+
+a {
+  color: var(--blue);
+  font-family: 'Noto Sans', sans-serif;
+}
+
+a:hover {
+  color: var(--brown);
+}
+
 
 
 .flex-row {
@@ -103,6 +111,13 @@ a {
 .about {
   margin-top: 1rem;
   margin-left: 1rem;
+}
+
+.silhouette {
+  margin-top: 1rem;
+  position: absolute;
+  top: 0;
+  z-index: -1;
 }
 
 
@@ -259,8 +274,17 @@ nav {
   margin-top: 3rem;
 }
 
+.page-about p img {
+  width: 1.75rem;
+  margin: 0 .5rem;
+}
+
 .intro h2 {
   color: var(--offWhite);
+}
+
+.page-index {
+  margin-top: 22rem;
 }
 
 .about-socials {
@@ -294,6 +318,47 @@ nav {
 }
 
 
+.page-projects section {
+  margin-top: 3rem;
+  margin-bottom: 5rem;
+}
+
+.page-projects section div {
+  margin-bottom: 2rem;
+}
+
+
+/* Image Slider Projects */
+
+.carousel-container, .carousel-container2, .carousel-container3, .carousel-container4 {
+  width: 320px;
+  margin: auto;
+  overflow: hidden;
+}
+
+img {
+  width: 320px;
+}
+
+.carousel-slide, .carousel-slide2, .carousel-slide3, .carousel-slide4 {
+  display: flex;
+  width: 100%;
+  height: 200px;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.buttons button {
+  width: 8rem;
+  height: 2rem;
+  font-size: 1.5rem;
+  border-radius: 8px;
+  color: var(--yellow);
+  background-color: #3b3b3b;
+}
 
 
 
@@ -346,14 +411,55 @@ footer h2 {
 
   /* Header */
 
+  .silhouette img {
+    width: 24rem;
+    margin-top: 3rem;
+    margin-left: -1rem;
+  }
+
+  
+
   /* Main */
   
+  .home {
+    margin-bottom: 12rem;
+  }
+
   .page-about {
     padding-bottom: 3rem;
   }
 
+  .page-index div {
+    width: 40%;
+  }
+
   .page-index {
-    width: 25rem;
+    margin-top: 15rem;
+    justify-content: space-around;
+  }
+
+  /* Image Slider Projects */
+
+  .carousel-container, .carousel-container2, .carousel-container3, .carousel-container4 {
+    width: 736px;
+    margin: auto;
+    overflow: hidden;
+  }
+
+  img {
+    width: 736px;
+  }
+
+  .carousel-slide, .carousel-slide2, .carousel-slide3, .carousel-slide4 {
+    display: flex;
+    width: 100%;
+    height: 500px;
+  }
+
+  .buttons button {
+    width: 8rem;
+    height: 2rem;
+    font-size: 1.5rem;
   }
 
   /* Footer */
@@ -389,6 +495,7 @@ footer h2 {
   
   nav a {
     font-size: 2.15rem;
+    font-family: 'Caveat Bold', cursive;
   }
   
   p {
@@ -442,12 +549,19 @@ footer h2 {
     margin-top: -1rem;
   }
 
+  .silhouette img {
+    width: 30rem;
+  }
+
+  .silhouette {
+    margin-top: 3rem;
+    margin-left: -5rem;
+  }
+
   /* Main */
   
 
   .page-index {
-    width: 25rem;
-    margin-right: 6rem;
     margin-top: 13rem;
   }
   
@@ -486,9 +600,21 @@ footer h2 {
 
   /* Header */
 
+  .silhouette img {
+    width: 35rem;
+  }
+
+  .silhouette {
+    margin-top: -2rem;
+    margin-left: -2rem;
+  }
 
   /* Main */
   
+  .page-index {
+    margin-top: 15rem;
+    margin-bottom: 20rem;
+  }
 
   /* Footer */
   footer {
@@ -532,6 +658,30 @@ footer h2 {
 
 
   /* Main */
+
+  /* Image Slider Projects */
+
+  .carousel-container, .carousel-container2, .carousel-container3, .carousel-container4 {
+    width: 1440px;
+    margin: auto;
+    overflow: hidden;
+  }
+
+  img {
+    width: 1440px;
+  }
+
+  .carousel-slide, .carousel-slide2, .carousel-slide3, .carousel-slide4 {
+    display: flex;
+    width: 100%;
+    height: 700px;
+  }
+
+  .buttons button {
+    width: 13rem;
+    height: 3rem;
+    font-size: 1.5rem;
+  }
   
 
   /* Footer */
