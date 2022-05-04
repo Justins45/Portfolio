@@ -5,7 +5,7 @@ Web Designer: Justin Shaw
 
 Web Developer: Justin Shaw
                             
-Site: https://justinshaw.netlify.app/
+Site: https://justinshaw.ca/
 
 Email: shaw.justin@shaw.ca
                             
@@ -20,7 +20,8 @@ Location: Calgary Alberta, Canada
 
 							
 Name: Netlify For Publishing and hosting Project sites,
-      Github For Having Files all in one safe place
+      Github For Having Files all in one safe place,
+      NameCheap for hosting main website
 
 						
                  
@@ -31,7 +32,7 @@ Name: Netlify For Publishing and hosting Project sites,
 /* SITE */
 
                             
-Last update: 04/28/2022
+Last update: 05/04/2022
 
                             
 Standards: HTML5, CSS3, JavaScript, jQuery
